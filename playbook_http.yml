@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  become: yes
+  tasks:
+
+  - name: Install HTTPD
+    yum: name=httpd state=present
+
+  - name: Start and  Enable during boot
+    service: name=httpd state=started enabled=yes
