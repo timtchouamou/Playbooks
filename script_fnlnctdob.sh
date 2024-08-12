@@ -6,3 +6,8 @@ read -p "what is your DATE OF BIRTH:" dob
 read -p "where is your COUNTRY: " ct
 age="$(expr 2024 - $dob)"
 echo "My FULL NAME is $fn $ln I am $age years old and I am from $ct"
+<<<<<<< HEAD
+=======
+echo "This is tims, the new master"
+echo " yes"
+>>>>>>> Playbooks1
